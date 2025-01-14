@@ -50,7 +50,7 @@ BMI Calculator is an intuitive Android application designed to calculate the Bod
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/username/BMI_Calculator.git
+   git clone https://github.com/pmoschos/BMICalculator.git
    ```
 2. **Open in Android Studio:**
    - Open the project in Android Studio.
@@ -79,7 +79,7 @@ BMI Calculator is an intuitive Android application designed to calculate the Bod
 
 ---
 
-## 💻 Example Code Snippets
+## 💻 Basic Processes
 
 ### Sending data to from CalculationActivity to ResultsActivity:
 ```java
@@ -95,7 +95,7 @@ btnCalculateBMI.setOnClickListener(view -> {
 });
 ```
 
-### Saving Results:
+### Saving Results Localy:
 ```java
 btnSaveResults.setOnClickListener(view -> {
     SharedPreferencesUtil.saveValues(getApplicationContext(), bmi, age, weight, height, gender);
