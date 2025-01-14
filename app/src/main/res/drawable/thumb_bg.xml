@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Checked state (ON) -->
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/primaryColor"/> <!-- Purple color for the thumb -->
+            <size android:width="40dp" android:height="40dp"/> <!-- Thumb size should be smaller than the track -->
+        </shape>
+    </item>
+
+    <!-- Unchecked state (OFF) -->
+    <item android:state_checked="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/primaryColor"/> <!-- Same color for thumb in unchecked state -->
+            <size android:width="40dp" android:height="40dp"/> <!-- Thumb size -->
+        </shape>
+    </item>
+</selector>
+
+
+

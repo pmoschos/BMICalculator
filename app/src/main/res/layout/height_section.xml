@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        android:background="@color/lightBackgroundColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- Height Label -->
+            <TextView
+                android:id="@+id/tv_height_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/height_cm"
+                android:layout_gravity="center"
+                android:textColor="@color/darkBlueColor"
+                android:textSize="18sp"
+                android:fontFamily="@font/inter_w500" />
+
+            <!-- Height Value -->
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150"
+                android:layout_gravity="center"
+                android:textColor="@color/primaryColor"
+                android:textSize="52sp"
+                android:fontFamily="@font/inter_w700"
+                android:layout_marginTop="2dp" />
+
+            <!-- SeekBar -->
+            <SeekBar
+                android:id="@+id/seekbar_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:min="50"
+                android:max="250"
+                android:progress="150"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/seekbar_thumb"
+                android:layout_marginTop="2dp" />
+
+
+            <!-- Range Labels -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <!-- Min Value -->
+                <TextView
+                    android:id="@+id/tv_min_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50 cm"
+                    android:textColor="@color/darkBlueColor"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/inter_w400"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Max Value -->
+                <TextView
+                    android:id="@+id/tv_max_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="250 cm"
+                    android:textColor="@color/darkBlueColor"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/inter_w400"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

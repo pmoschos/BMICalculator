@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyFirstaApp2024a</string>
+    <string name="app_title">BMI Calculator</string>
+    <string name="get_started_btn">Get Started</string>
+    <string name="button_get_started">Get Started</string>
+    <string name="text_main_message">Get Started with Tracking Your Health!</string>
+    <string name="text_secondary_message">Calculate your BMI and stay on top of your wellness journey, effortlessly.</string>
+    <string name="bmi_logo_description">Logo of the BMI Calculator App</string>
+    <string name="calc_bmi">Calculate BMI</string>
+    <string name="height_cm">Height (CM)</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender_title">Gender</string>
+    <string name="age">Age</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="weight_kg">Weight (KG)</string>
+    <string name="bmi_results_text">BMI Results</string>
+    <string name="normal_bmi_text">NORMAL BMI</string>
+    <string name="underweight_bmi">Underweight: BMI less than 18.5</string>
+    <string name="normal_weight_bmi">Normal weight: BMI 18.5 to 24.9</string>
+    <string name="overweight_bmi">Overweight: BMI 25 to 29.9</string>
+    <string name="obesity_bmi">Obesity: BMI 30+</string>
+    <string name="save_the_results">Save the results</string>
+
+</resources>

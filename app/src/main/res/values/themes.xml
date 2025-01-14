@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFirstaApp2024a" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyFirstaApp2024a" parent="Base.Theme.MyFirstaApp2024a" />
+
+    <!-- Light Button Style -->
+    <style name="RoundedButtonStyleLight" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/light_button_style</item>
+        <item name="android:textColor">@color/darkBlueColor</item>
+        <item name="android:paddingTop">22dp</item>
+        <item name="android:paddingBottom">22dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/inter_w500</item>
+    </style>
+
+
+    <!-- Dark Button Style -->
+    <style name="RoundedButtonStyleDark" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/dark_button_style</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingTop">22dp</item>
+        <item name="android:paddingBottom">22dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/inter_w500</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstaApp2024a</string>
+    <string name="app_title">BMI Calculator</string>
+    <string name="get_started_btn">Get Started</string>
+    <string name="button_get_started">Get Started</string>
+    <string name="text_main_message">Get Started with Tracking Your Health!</string>
+    <string name="text_secondary_message">Calculate your BMI and stay on top of your wellness journey, effortlessly.</string>
+    <string name="bmi_logo_description">Logo of the BMI Calculator App</string>
+    <string name="calc_bmi">Calculate BMI</string>
+    <string name="height_cm">Height (CM)</string>
+    <string name="gender">Gender</string>
+
+</resources>
